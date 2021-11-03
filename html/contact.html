@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Sample</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col w-3">
+                    <div class="logo">
+                        <a href="/"><img src="https://thedevdrawer.com/assets/img/logo-header.png"></a>
+                    </div>
+                </div>
+                <div class="col w-9">
+                    <div id="menu">
+                        <button type="button" id="menu-btn">Menu</button>
+                    </div>
+                    <nav id="nav">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about.html">About</a></li>
+                            <li><a href="/contact.html" class="active">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col w-1">
+                    <div class="card">
+                        <h1 class="text-center">Contact Me</h1>
+                        <div class="row">
+                            <div class="col w-6 left">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scisse enim te quis coarguere possit? Equidem, sed audistine modo de Carneade? Quid ad utilitatem</p>
+                                <p>
+                                    <strong>Telephone:</strong> 123-456-7890
+                                    <br>
+                                    <strong>Email Address:</strong> sample@example.com
+                                </p>
+                            </div>
+                            <div class="col w-6">
+                                <form>
+                                    <input type="text" placeholder="First Name">
+                                    <input type="text" placeholder="Last Name">
+                                    <input type="text" placeholder="Email Address">
+                                    <input type="text" placeholder="Phone Number">
+                                    <textarea placeholder="How can I help you?" rows="10"></textarea>
+                                    <button type="submit">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p class="text-center hidden-sm">
+                <a href="/index.html" class="active">Home</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a>
+            </p>
+            <p class="text-center">
+                Fake Copyright 2021 &copy; The Dev Drawer
+            </p>
+        </div>
+    </footer>
+    <script src="js/init.js"></script>
+</body>
+</html>
